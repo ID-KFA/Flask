@@ -45,6 +45,7 @@ def submit():
     return render_template('login.html')
 
 
+
 @app.route('/delcookie', methods=['GET', 'POST'])
 def delcookie():
     if request.method == 'POST':
